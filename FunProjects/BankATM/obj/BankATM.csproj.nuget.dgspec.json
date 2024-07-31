@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\viper\\OneDrive\\Desktop\\Vscodes\\FunProjects\\BankATM\\BankATM.csproj": {}
+    "C:\\Users\\viper\\OneDrive\\Desktop\\Vscodes\\FunProjects\\BankATM\\BankATM.csproj": {}
   },
   "projects": {
-    "c:\\Users\\viper\\OneDrive\\Desktop\\Vscodes\\FunProjects\\BankATM\\BankATM.csproj": {
+    "C:\\Users\\viper\\OneDrive\\Desktop\\Vscodes\\FunProjects\\BankATM\\BankATM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\viper\\OneDrive\\Desktop\\Vscodes\\FunProjects\\BankATM\\BankATM.csproj",
+        "projectUniqueName": "C:\\Users\\viper\\OneDrive\\Desktop\\Vscodes\\FunProjects\\BankATM\\BankATM.csproj",
         "projectName": "BankATM",
-        "projectPath": "c:\\Users\\viper\\OneDrive\\Desktop\\Vscodes\\FunProjects\\BankATM\\BankATM.csproj",
+        "projectPath": "C:\\Users\\viper\\OneDrive\\Desktop\\Vscodes\\FunProjects\\BankATM\\BankATM.csproj",
         "packagesPath": "C:\\Users\\viper\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\viper\\OneDrive\\Desktop\\Vscodes\\FunProjects\\BankATM\\obj\\",
+        "outputPath": "C:\\Users\\viper\\OneDrive\\Desktop\\Vscodes\\FunProjects\\BankATM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\viper\\AppData\\Roaming\\NuGet\\NuGet.Config",

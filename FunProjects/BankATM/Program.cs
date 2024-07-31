@@ -40,7 +40,7 @@ namespace BankATM
                     
                     if (isThisCorrect.ToLower() == "yes")
                     {
-                        Console.WriteLine("You have " + money + " in your account");
+                        Console.WriteLine("You have " + money + " in your account");yes
                     }
                     Console.WriteLine("Would you like to pull money from your account?"); 
 
