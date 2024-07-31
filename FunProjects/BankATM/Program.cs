@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
 
 namespace BankATM 
 {
@@ -8,8 +6,13 @@ namespace BankATM
     {
         static void Main(string[] args)
         {
+            static string userName;
             Console.WriteLine("Hi there! Would you like to apply for an account with Mission Federal?");
-           Beginning();
+            string response = Console.ReadLine();
+            if (response.ToLower() == "yes){
+            Beginning();
+            }
+            Console.ReadKey;
         }
         
         static void Beginning()
@@ -22,25 +25,27 @@ namespace BankATM
                 ApplyForAccount();
                 break;
             }
-            static void ApplyForAccount()
+        }
+        static void ApplyForAccount()
             {
                 
                 Console.WriteLine("Thanks for joining Mission Federal. What is your name?");
-                string userName = Console.ReadLine();
-                Console.WriteLine("Hi " + userName + ", Your access code is 1427. Would you like to put some money into your account?");
-                string moneyDown = Console.ReadLine();
+                userName = Console.ReadLine();
                 
-                if (moneyDown == "yes")
+                Console.WriteLine("Hi " + userName + ", Your access code is 1427. Would you like to put some money into your account?");
+                string moneyDownConfirm = Console.ReadLine();
+                
+                if (moneyDownConfirm == "yes")
                 {
                     Console.WriteLine("How much money would you like to put in?");
                     
-                    string money = Console.ReadLine();
-                    Console.WriteLine("You put " + money + " in. Is this correct?");
+                    string moneyDown = Console.ReadLine();
+                    Console.WriteLine("You put " + moneyDown + " in. Is this correct?");
                     string isThisCorrect = Console.ReadLine();
                     
                     if (isThisCorrect.ToLower() == "yes")
                     {
-                        Console.WriteLine("You have " + money + " in your account");yes
+                        Console.WriteLine("You have " + moneyDown + " in your account");yes
                     }
                     Console.WriteLine("Would you like to pull money from your account?"); 
 
@@ -49,7 +54,5 @@ namespace BankATM
                     Console.WriteLine("Have a nice day!");
                 }
             }
-            Console.ReadKey();
-        }
     }
 }
