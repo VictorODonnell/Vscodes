@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BankATM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+db9c64a9589f067d7476041df9ff4c583d9e31fd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b00ce6bfab0768015fa8ef7d08a779efbf2a1e4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BankATM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BankATM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
