@@ -5,36 +5,50 @@ namespace oop
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             {
-                int roll1 = 0;
-                int roll2 = 0;
+            string choice = Console.ReadLine();
 
-                Random numGen = new Random();
-                Random numGen2 = new Random();
-
-                Console.WriteLine("Press any key to roll");
-                Console.ReadKey();
-
-                roll1 = numGen.Next(1, 7);
-                roll2 = numGen.Next(1, 7);
-
-                System.Console.WriteLine("\nYour roll: " + roll1);
-                System.Threading.Thread.Sleep(1000);
-                System.Console.WriteLine("Enemy ai roll: " + roll2);
-
-                if(roll1 < roll2) {
-                    Console.WriteLine("You Lose");
-                }
-                else if (roll1 > roll2) {
-                    System.Console.WriteLine("You Win");
-                }
-                else {
-                    Console.WriteLine("Draw");
-                } 
-                Console.ReadKey();
+            Console.WriteLine("Enter a for apply, b for balance, and n for new card");
+                
+            if (choice == "a") {
+                apply();
+            }
+            else if (choice == "b") {
+                balance();
+            }
+            else if (choice == "n") {
+                NewCard();
+            }
+            else {
+                error();
+            }
+            Console.ReadKey();
             }            
-        }        
+        } 
+        static void apply() {
+            string application = Console.ReadLine();
+
+            System.Console.WriteLine("S for savings and c for checkings");
+            System.Console.WriteLine("Thank you for applying! Did you want a checking account or savings account?");
+            
+            if (application == "c") {
+                System.Console.WriteLine("Checkings\n");
+            }
+            else if (application == "s") {
+                System.Console.WriteLine("Savings\n");
+            }
+        }
+        static void balance() {
+            
+        }
+        static void NewCard() {
+            System.Console.WriteLine("NewCard\n");
+        }
+        static void error() {
+            System.Console.WriteLine("Try Again\n");
+            Main();
+        }       
     }
 }
