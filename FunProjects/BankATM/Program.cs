@@ -12,8 +12,11 @@ namespace BankATM
             {
             string choice;
 
+            Math.Round
+
             Console.WriteLine("Enter a for apply, b for balance, and n for new card");
             choice = Console.ReadLine();
+
             if (choice == "a") {
                 apply();
             }
@@ -27,8 +30,7 @@ namespace BankATM
                 error();
             }
             Console.ReadKey();
-            }  
-            
+            }
             
         } 
         static string application;  
@@ -58,6 +60,17 @@ namespace BankATM
 
         }
         static void balance() {
+            switch (application) {
+                case "c":
+                System.Console.WriteLine("Checkings balance\n");
+                System.Console.WriteLine("Your Checking balance is: " + cBalance);
+                break;
+
+                case "b":
+                System.Console.WriteLine("savings balance \n");
+                break;
+            }
+
             if (application == "c") {
                 System.Console.WriteLine("Checkings balance\n");
                 System.Console.WriteLine("Your Checking balance is: " + cBalance);
